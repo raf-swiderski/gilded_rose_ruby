@@ -83,11 +83,6 @@ describe GildedRose do
       expect(items[0].quality).to eq 4
     end
 
-
-
-
-
-
   end
 
 end
