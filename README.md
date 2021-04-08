@@ -37,3 +37,5 @@ This meant that i could give the amount as an argument, meaning i was free to ch
 Clone the repo
 
 run ```bundle install```
+
+Then run ```rspec``` to run the tests.
