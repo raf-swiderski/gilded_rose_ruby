@@ -27,3 +27,7 @@ We have recently signed a supplier of conjured items. This requires an update to
 This meant that i could give the amount as an argument, meaning i was free to choose exactly how much the quality needed to change. 
 4. I chose to use 'if' statements as it was the easiest way i could see to separate out the products to maximise readability. 
 5. the 'increase_quality' and 'decrease_quality' methods grew more complicated the more changes i made. 
+
+## Test Coverage
+
+![Screenshot 2021-04-08 at 17 27 11](https://user-images.githubusercontent.com/76166627/114062721-bc30eb80-988f-11eb-9fd3-0e0e464558c1.png)
