@@ -35,12 +35,6 @@ describe GildedRose do
       expect(items[0].quality).to eq 6
     end
 
-    it "The quality of an item is never more than 50" do
-      items = [Item.new("Aged Brie", sell_in=2, quality=0)]
-      GildedRose.new(items).update_quality()
-      expect(items[0].quality).to eq 1
-    end
-
     it "Sulfuras never decreases in quality (1)" do
       items = [Item.new(name="Sulfuras, Hand of Ragnaros", sell_in=1, quality=80)]
       GildedRose.new(items).update_quality()
